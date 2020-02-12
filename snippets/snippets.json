@@ -1,0 +1,27 @@
+{
+    "Basic vuex-pahify Store with namespace": {
+        "prefix": "vxbasic",
+        "body": [
+          "import { make } from \"vuex-pathify\";",
+          "",
+          "const state = {",
+          "",
+          "};",
+          "",
+          "const getters = make.getters(state);",
+          "const mutations = make.mutations(state);",
+          "const actions = {",
+          "  ...make.actions(state),",
+          "};",
+          "",
+          "export default {",
+          "  namespaced: true,",
+          "  state,",
+          "  getters,",
+          "  actions,",
+          "  mutations",
+          "};"
+        ],
+        "description": "Basic vuex-pahify Store with namespace"
+      }
+}
